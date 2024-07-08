@@ -25,7 +25,11 @@ namespace IActionResultExample.Controllers
                 Response.StatusCode = 401;
                 return Content("User must be authenticated to continue!");
             }
-            return File("/sample.pdf","application/pdf");
+            // return File("/sample.pdf","application/pdf");
+            // return new RedirectToActionResult("Books","Store",new {});
+            return RedirectToAction("Books", "Store");
+
+            // return new RedirectToActionResult("Action method name","controller name");
     }
     }
 }
