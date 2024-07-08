@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "wQkDgvn5aZ/jhyva630ZZBRa8Wc7n4VWmVfmOEUCL78=",
+  "Hash": "KRBXi+JXyt+jdxF+VX4N86yrKnMl3qw7/6FQ9vDqnbw=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookStore\\wwwroot",
+      "Source": "BookStore",
+      "ContentRoot": "D:\\Projects\\Dotnet\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Dotnet\\BookStore\\wwwroot\\sample.pdf",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Dotnet\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.pdf"
+    }
+  ]
 }
