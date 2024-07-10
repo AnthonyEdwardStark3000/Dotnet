@@ -27,9 +27,15 @@ namespace IActionResultExample.Controllers
             }
             // return File("/sample.pdf","application/pdf");
             // return new RedirectToActionResult("Books","Store",new {});
-            return RedirectToAction("Books", "Store");
+            // return new RedirectToActionResult("Books","Store" ); //302 redirect 
+            // return new RedirectToActionResult("Books", "Store",new {}, permanent:true); // 301 moved permanently
 
             // return new RedirectToActionResult("Action method name","controller name");
+            // return RedirectToActionPermanent("Books", "Store",new {Edition = 12});
+
+            // Redirect to Books action in StoreController with Edition parameter
+            return RedirectToActionPermanent("Books", "Store", new { Edition = 12 }); // Pass Edition parameter
+
     }
     }
 }
