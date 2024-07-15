@@ -4,11 +4,17 @@ namespace IActionResultExample.Controllers
 {
     public class StoreController : Controller
     {
-        [Route("store/books/{Edition}")]
-        public IActionResult Books(string Edition)
+        [Route("store/books/{id}")]
+        public IActionResult Books(string id)
         {
-            int edition = Convert.ToInt32(Request.RouteValues["Edition"]);
-            return Content($"<h1>BookStore</h1> {edition}","text/html");
+            int Id = Convert.ToInt32(Request.RouteValues["id"]);
+            return Content($"<h1>BookStore</h1>{Id} ","text/html");
+        }
+
+        [Route("store/check")]
+        public IActionResult Check()
+        {
+            return Content($"<h1>BookStore check function</h1>","text/html");
         }
     }
 }

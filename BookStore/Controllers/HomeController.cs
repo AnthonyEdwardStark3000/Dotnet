@@ -26,16 +26,10 @@ namespace IActionResultExample.Controllers
                 return Content("User must be authenticated to continue!");
             }
             // return File("/sample.pdf","application/pdf");
-            // return new RedirectToActionResult("Books","Store",new {});
-            // return new RedirectToActionResult("Books","Store" ); //302 redirect 
-            // return new RedirectToActionResult("Books", "Store",new {}, permanent:true); // 301 moved permanently
-
-            // return new RedirectToActionResult("Action method name","controller name");
-            // return RedirectToActionPermanent("Books", "Store",new {Edition = 12});
-
-            // Redirect to Books action in StoreController with Edition parameter
-            return RedirectToActionPermanent("Books", "Store", new { Edition = 12 }); // Pass Edition parameter
-
+            
+            Console.WriteLine("check");
+            // return RedirectToAction("Check", "Store");
+            return RedirectToAction("Books", "Store", new {id=100});
     }
     }
 }
