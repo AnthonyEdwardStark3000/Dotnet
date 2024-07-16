@@ -32,8 +32,9 @@ namespace IActionResultExample.Controllers
             // return RedirectToAction("Books", "Store", new {id=3000}); // Redirected 302
             // return RedirectToActionPermanent("Books","Store",new{id=2000}); // Redirect moved permanently 301
             // Redirect to another local URL
-            // return new LocalRedirectResult($"/store/books/{bookId}"); // or
-            return LocalRedirect($"/store/books/{bookId}");
+            // return new LocalRedirectResult($"/store/books/{bookId}"); // 302- Found or
+            // return LocalRedirect($"/store/books/{bookId}"); // 302 - Found
+            return LocalRedirectPermanent($"/store/books/{bookId}"); // 301 - Moved permanently.
     }
     }
 }
