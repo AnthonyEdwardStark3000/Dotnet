@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace IActionResultExample.Controllers
 {
     public class HomeController:Controller{
-        [Route("bookstore")]
+        [Route("bookstore/{bookid}/{isLoggedIn?}")]
         // url :/bookstore?bookid=5&isloggedin=true
         public IActionResult Index(int? bookid, bool? isLoggedIn){
             if(bookid.HasValue==false){
