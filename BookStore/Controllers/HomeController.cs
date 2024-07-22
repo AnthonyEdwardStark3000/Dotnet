@@ -21,7 +21,7 @@ namespace IActionResultExample.Controllers
                 Response.StatusCode = 401;
                 return Content("User must be authenticated to continue!");
             }
-            return Content($"Book ID: {bookid}","text/plain");
+            return Content($"The entered Book ID is: {bookid}","text/plain");
     }
     }
 }
