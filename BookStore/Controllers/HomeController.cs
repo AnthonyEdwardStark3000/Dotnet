@@ -4,7 +4,7 @@ namespace IActionResultExample.Controllers
     public class HomeController:Controller{
         [Route("bookstore/{bookid}/{isLoggedIn?}")]
         // url :/bookstore?bookid=5&isloggedin=true
-        public IActionResult Index(int? bookid, bool? isLoggedIn){
+        public IActionResult Index([FromRoute]int? bookid, [FromRoute]bool? isLoggedIn){
             if(bookid.HasValue==false){
                 return BadRequest("Book Id is not supplied!");
             }
