@@ -6,7 +6,7 @@ namespace IActionResultExample.Controllers
     public class HomeController:Controller{
         [Route("bookstore/{bookid}/{isLoggedIn?}")]
         // url :/bookstore?bookid=5&isloggedin=true
-        public IActionResult Index([FromQuery]int? bookid, [FromRoute]bool? isLoggedIn, Book book){
+        public IActionResult Index([FromQuery]int? bookid, [FromRoute]bool? isLoggedIn, [FromQuery]Book book){
             if(bookid.HasValue==false){
                 return BadRequest("Book Id is not supplied!");
             }
@@ -23,8 +23,7 @@ namespace IActionResultExample.Controllers
                 Response.StatusCode = 401;
                 return Content("User must be authenticated to continue!");
             }
-            // return Content($"The entered Book ID is: {bookid}","text/plain");
-            return Content(book.ToString());
+            return Content($"The entered Book ID is: {bookid} and the Book is : {book}","text/plain");
     }
     }
 }
