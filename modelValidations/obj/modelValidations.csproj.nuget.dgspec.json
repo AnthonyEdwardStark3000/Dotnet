@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {}
+    "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {
+    "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
+        "projectUniqueName": "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
         "projectName": "modelValidations",
-        "projectPath": "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
+        "projectPath": "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Dotnet\\modelValidations\\obj\\",
+        "outputPath": "d:\\Projects\\Dotnet\\modelValidations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
