@@ -1,5 +1,9 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace modelValidations.Models{
     public class Person{
+        [Required] // Attribute Required to make the PersonName field required one
+        //All the attributes are classes
         public string? PersonName{get;set;}
         public string? Email{get;set;}
         public string? Phone{get;set;}
