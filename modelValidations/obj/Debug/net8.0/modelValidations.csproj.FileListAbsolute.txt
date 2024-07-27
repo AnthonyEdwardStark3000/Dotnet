@@ -32,3 +32,5 @@ d:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\refint\modelValidations.dll
 d:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.pdb
 d:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.genruntimeconfig.cache
 d:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\ref\modelValidations.dll
+d:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\nlog.config
+d:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\NLog.dll
