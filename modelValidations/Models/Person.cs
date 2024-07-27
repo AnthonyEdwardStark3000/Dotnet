@@ -6,5 +6,8 @@ namespace modelValidations.Models{
         public string? Password{get;set;}
         public string? ConfirmPassword{get;set;}
         public double? Price{get;set;}
+        public override string ToString(){
+            return $"Person object - {PersonName} {Email} {Phone} {Password} {ConfirmPassword} {Price}";
+        }
     }
 }
