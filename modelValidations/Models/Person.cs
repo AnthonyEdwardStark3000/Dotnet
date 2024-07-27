@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace modelValidations.Models{
     public class Person{
-        [Required] // Attribute Required to make the PersonName field required one
+        [Required(ErrorMessage = "This field is an Required field and cannot be empty!")] // Attribute Required to make the PersonName field required one
         //All the attributes are classes
         public string? PersonName{get;set;}
         public string? Email{get;set;}
