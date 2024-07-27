@@ -9,7 +9,17 @@ namespace modelValidations.Controllers{
         [Route("register")]
         public IActionResult Index(Person person){
             if(!ModelState.IsValid){
-                return BadRequest();
+                // List<string>errorsList = new List<string>();
+                // foreach(var value in ModelState.Values){
+                //     foreach(var error in value.Errors){
+                //         errorsList.Add(error.ErrorMessage);    
+                //     }
+                // }
+                // string errors = string.Join("\n",errorsList);
+                // Can be written as
+                string errors = string.Join("\n",
+                ModelState.Values.SelectMany(values=>values.Errors).Select(err=>err.ErrorMessage));
+                return BadRequest(errors);
             }
             logger.Debug($"Hit the API: /register");
             return Content($"{person}"); // Automatically calls the ToString() of the person Model
