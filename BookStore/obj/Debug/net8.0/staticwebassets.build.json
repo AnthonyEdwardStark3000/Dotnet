@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KRBXi+JXyt+jdxF+VX4N86yrKnMl3qw7/6FQ9vDqnbw=",
+  "Hash": "NxJEWQl+gRUHfU7j38CtQmAYP46cgvaAEuQzNSkH0ug=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BookStore\\wwwroot",
       "Source": "BookStore",
-      "ContentRoot": "D:\\Projects\\Dotnet\\BookStore\\wwwroot\\",
+      "ContentRoot": "d:\\Projects\\Dotnet\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\Dotnet\\BookStore\\wwwroot\\sample.pdf",
+      "Identity": "d:\\Projects\\Dotnet\\BookStore\\wwwroot\\sample.pdf",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\Dotnet\\BookStore\\wwwroot\\",
+      "ContentRoot": "d:\\Projects\\Dotnet\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "sample.pdf",
       "AssetKind": "All",

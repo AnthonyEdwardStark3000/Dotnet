@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BookStore.Models{
     public class Book{
-        [FromQuery]
+        // [FromQuery]
         public int? BookId{get;set;}
-        [FromRoute]
+        // [FromRoute]
         public string? Author{get;set;}
         public override string ToString(){
             return $"Book object - BookId is {BookId} and written By {Author}";
