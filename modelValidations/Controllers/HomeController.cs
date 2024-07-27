@@ -8,6 +8,9 @@ namespace modelValidations.Controllers{
         private Logger logger = LogManager.GetCurrentClassLogger();
         [Route("register")]
         public IActionResult Index(Person person){
+            if(!ModelState.IsValid){
+                return BadRequest();
+            }
             logger.Debug($"Hit the API: /register");
             return Content($"{person}"); // Automatically calls the ToString() of the person Model
         }
