@@ -4,9 +4,9 @@ using BookStore.Models;
 namespace IActionResultExample.Controllers
 {
     public class HomeController:Controller{
-        [Route("bookstore/{bookid}/{isLoggedIn?}")]
+        [Route("bookstore/{bookid}/{isLoggedIn?}/{Author}")]
         // url :/bookstore?bookid=5&isloggedin=true
-        public IActionResult Index([FromQuery]int? bookid, [FromRoute]bool? isLoggedIn, Book book){
+        public IActionResult Index([FromQuery]int? bookid, [FromRoute]bool? isLoggedIn, [FromRoute]string? Author, Book book){
             if(bookid.HasValue==false){
                 return BadRequest("Book Id is not supplied!");
             }
@@ -23,6 +23,7 @@ namespace IActionResultExample.Controllers
                 Response.StatusCode = 401;
                 return Content("User must be authenticated to continue!");
             }
+            book.Author = Author;
             return Content($"The entered Book ID is: {bookid} and the Book is : {book}","text/plain");
     }
     }
