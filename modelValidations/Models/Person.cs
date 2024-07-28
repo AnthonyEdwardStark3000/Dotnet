@@ -25,7 +25,7 @@ namespace modelValidations.Models{
         public string? ConfirmPassword{get;set;}
         [Range(0,999.99, ErrorMessage ="{0} can contain numbers from the range {1} to {2}")]
         public double? Price{get;set;}
-        [MinimumYearValidator]
+        [MinimumYearValidator(ErrorMessage ="Date of Birth should not exceed 2000")]
         public DateTime? DateOfBirth{get;set;}
         public override string ToString(){
             return $"Person object - PersonName: {PersonName}\n Email: {Email}\n Phone: {Phone}\n Password: {Password}\n ConfirmPassword: {ConfirmPassword}\n Price: {Price}";
