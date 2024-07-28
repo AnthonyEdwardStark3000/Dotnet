@@ -8,7 +8,7 @@ namespace modelValidations.CustomValidators{
             if(value!=null){
                 DateTime date = (DateTime)value;
                 if(date.Year>=2000){
-                    return new ValidationResult("Minimum year allowed is 2000");
+                    return new ValidationResult("Maximum year allowed is 2000");
                 }
                 else{
                     return ValidationResult.Success;

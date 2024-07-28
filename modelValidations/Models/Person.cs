@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using modelValidations.CustomValidators;
 
 namespace modelValidations.Models{
@@ -9,6 +10,7 @@ namespace modelValidations.Models{
         [Display(Name="Person Name")] // Display Name to be shown in {0}
         [StringLength(40,MinimumLength =3,ErrorMessage ="{0} should contain between {2} - {1} characters")]
         [RegularExpression("^[A-Za-z .,]$",ErrorMessage="Please Enter a valid character A-Za-z .,")]
+        [ValidateNever]
         public string? PersonName{get;set;}
         [EmailAddress(ErrorMessage ="{0} should be a valid Email address with characters like email@email.com")]
         [Required(ErrorMessage ="This field cannot be empty")]
