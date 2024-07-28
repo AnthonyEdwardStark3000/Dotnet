@@ -18,9 +18,18 @@ namespace modelValidations.CustomValidators{
                 // validationContext has the informations about the Mode property, Model class and Model object 
                 // ObjectInstance refers to the Model instance created by Model binding. 
                 // Gets the value of FromDate from person Model.
+                if(otherProperty!= null){
                 DateTime from_date = Convert.ToDateTime(otherProperty.GetValue(validationContext.ObjectInstance));
+
+                if(from_date > to_date){
+                    return new ValidationResult(ErrorMessage, new string[] { OtherPropertyName, validationContext.MemberName });
+                }else{
+                    return ValidationResult.Success;
+                }
+              }
+              return null;
             }
-            return base.IsValid(value, validationContext);
+            return null;
         }
 
     }
