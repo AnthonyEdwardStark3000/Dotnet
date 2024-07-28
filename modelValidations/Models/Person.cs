@@ -7,6 +7,7 @@ namespace modelValidations.Models{
         //All the attributes are classes
         [Display(Name="Person Name")] // Display Name to be shown in {0}
         [StringLength(40,MinimumLength =3,ErrorMessage ="{0} should contain between {2} - {1} characters")]
+        [RegularExpression("^[A-Za-z .,]$",ErrorMessage="Please Enter a valid character A-Za-z .,")]
         public string? PersonName{get;set;}
         public string? Email{get;set;}
         public string? Phone{get;set;}
