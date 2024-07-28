@@ -9,9 +9,16 @@ namespace modelValidations.Models{
         [StringLength(40,MinimumLength =3,ErrorMessage ="{0} should contain between {2} - {1} characters")]
         [RegularExpression("^[A-Za-z .,]$",ErrorMessage="Please Enter a valid character A-Za-z .,")]
         public string? PersonName{get;set;}
+        [EmailAddress(ErrorMessage ="{0} should be a valid Email address with characters like email@email.com")]
+        [Required(ErrorMessage ="This field cannot be empty")]
         public string? Email{get;set;}
+        [Phone(ErrorMessage ="Please Enter a valid {0} number")]
         public string? Phone{get;set;}
+        [Required(ErrorMessage = "{0} field is an required field and cannot be empty!")]
         public string? Password{get;set;}
+        [Required(ErrorMessage = "{0} field is an required field and cannot be empty!")]
+        [Compare("Password",ErrorMessage ="{0} and {1} don't match")]
+        [Display(Name="Re-enter Password")]
         public string? ConfirmPassword{get;set;}
         [Range(0,999.99, ErrorMessage ="{0} can contain numbers from the range {1} to {2}")]
         public double? Price{get;set;}
