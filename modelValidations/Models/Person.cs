@@ -28,6 +28,10 @@ namespace modelValidations.Models{
         // [MinimumYearValidator(1999,ErrorMessage ="Date of Birth should not exceed {0}")]
         [MinimumYearValidator(1999)]
         public DateTime? DateOfBirth{get;set;}
+        public DateTime? FromDate{get;set;}
+        
+        [DateRangeValidator("FromDate", ErrorMessage="From Date cannot Exceed or Equalto  To Date")]
+        public DateTime? ToDate{get;set;}
         public override string ToString(){
             return $"Person object - PersonName: {PersonName}\n Email: {Email}\n Phone: {Phone}\n Password: {Password}\n ConfirmPassword: {ConfirmPassword}\n Price: {Price}";
         }
