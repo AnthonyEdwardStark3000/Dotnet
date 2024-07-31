@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using modelValidations.CustomValidators;
 
 namespace modelValidations.Models{
-    public class Person{
+    public class Person: IValidatableObject{
         [Required(ErrorMessage = "{0} field is an Required field and cannot be empty!")] // Attribute Required to make the PersonName field required one 
         // {0} takes the first property name here it is PersonName
         //All the attributes are classes
@@ -30,10 +30,19 @@ namespace modelValidations.Models{
         public DateTime? DateOfBirth{get;set;}
         public DateTime? FromDate{get;set;}
         
+        public int?Age{get;set;}
+
         [DateRangeValidator("FromDate", ErrorMessage="From Date cannot Exceed or Equalto  To Date")]
         public DateTime? ToDate{get;set;}
         public override string ToString(){
             return $"Person object - PersonName: {PersonName}\n Email: {Email}\n Phone: {Phone}\n Password: {Password}\n ConfirmPassword: {ConfirmPassword}\n Price: {Price}";
         }
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext){
+            if(DateOfBirth.HasValue == false && Age.HasValue == false){
+                yield return new ValidationResult("Either Date of Birth or Age must be supplied!", new[]{nameof(Age)});
+            }
+        }
+
     }
 }
