@@ -1,9 +1,4 @@
-D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\nlog.config
-D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\appsettings.Development.json
-D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\appsettings.json
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.exe
-D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.deps.json
-D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.runtimeconfig.json
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.dll
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.pdb
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
@@ -11,6 +6,9 @@ D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\NLog.dll
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\nlog.config
+D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\appsettings.Development.json
+D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\appsettings.json
 D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.csproj.AssemblyReference.cache
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.GeneratedMSBuildEditorConfig.editorconfig
@@ -32,5 +30,7 @@ D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelVal.76B47BC2.Up2Date
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.dll
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\refint\modelValidations.dll
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.pdb
+D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.deps.json
+D:\Projects\Dotnet\modelValidations\bin\Debug\net8.0\modelValidations.runtimeconfig.json
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\modelValidations.genruntimeconfig.cache
 D:\Projects\Dotnet\modelValidations\obj\Debug\net8.0\ref\modelValidations.dll
