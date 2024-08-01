@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using modelValidations.CustomValidators;
 
@@ -19,6 +20,7 @@ namespace modelValidations.Models{
         public string? Email{get;set;}
 
 
+        [BindNever]
         [Phone(ErrorMessage ="Please Enter a valid {0} number")]
         public string? Phone{get;set;}
 
@@ -48,7 +50,7 @@ namespace modelValidations.Models{
         [DateRangeValidator("FromDate", ErrorMessage="From Date cannot Exceed or Equalto  To Date")]
         public DateTime? ToDate{get;set;}
 
-        
+
         public override string ToString(){
             return $"Person object - PersonName: {PersonName}\n Email: {Email}\n Phone: {Phone}\n Password: {Password}\n ConfirmPassword: {ConfirmPassword}\n Price: {Price}";
         }
