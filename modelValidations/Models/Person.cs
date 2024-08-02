@@ -20,7 +20,6 @@ namespace modelValidations.Models{
         public string? Email{get;set;}
 
 
-        [BindNever]
         [Phone(ErrorMessage ="Please Enter a valid {0} number")]
         public string? Phone{get;set;}
 
