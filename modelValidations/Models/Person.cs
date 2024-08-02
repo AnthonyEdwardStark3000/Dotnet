@@ -39,14 +39,16 @@ namespace modelValidations.Models{
 
         // [MinimumYearValidator(1999,ErrorMessage ="Date of Birth should not exceed {0}")]
         [MinimumYearValidator(1999)]
+        [ValidateNever]
         public DateTime? DateOfBirth{get;set;}
 
-
+        [ValidateNever]
         public DateTime? FromDate{get;set;}
         
         public int?Age{get;set;}
 
         [DateRangeValidator("FromDate", ErrorMessage="From Date cannot Exceed or Equalto  To Date")]
+        [ValidateNever]
         public DateTime? ToDate{get;set;}
 
 
