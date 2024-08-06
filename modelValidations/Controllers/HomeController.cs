@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using modelValidations.CustomModelBinders;
 using modelValidations.Models;
 using NLog;
 
@@ -7,7 +8,8 @@ namespace modelValidations.Controllers{
     public class HomeController:Controller{
         private Logger logger = LogManager.GetCurrentClassLogger();
         [Route("register")]
-        public IActionResult Index([Bind(nameof(Person.PersonName),nameof(Person.Email),nameof(Person.Password),nameof(Person.Password),nameof(Person.ConfirmPassword),nameof(Person.Age))] [FromBody]Person person){
+        public IActionResult Index([Bind(nameof(Person.PersonName),nameof(Person.Email),nameof(Person.Password),nameof(Person.Password),nameof(Person.ConfirmPassword),nameof(Person.Age))]
+        [FromBody][ModelBinder(BinderType = typeof(PersonModelBinder))]Person person){
             if(!ModelState.IsValid){
                 // List<string>errorsList = new List<string>();
                 // foreach(var value in ModelState.Values){

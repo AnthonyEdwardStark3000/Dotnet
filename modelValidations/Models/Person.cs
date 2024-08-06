@@ -16,7 +16,7 @@ namespace modelValidations.Models{
 
 
         [EmailAddress(ErrorMessage ="{0} should be a valid Email address with characters like email@email.com")]
-        [Required(ErrorMessage ="This field cannot be empty")]
+        [Required(ErrorMessage ="{0} field cannot be empty")]
         public string? Email{get;set;}
 
 
