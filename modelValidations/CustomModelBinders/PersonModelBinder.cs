@@ -57,6 +57,12 @@ namespace modelValidations.CustomModelBinders{
             if(bindingContext.ValueProvider.GetValue("ToDate").Length>0){
                 person.ToDate = Convert.ToDateTime(bindingContext.ValueProvider.GetValue("ToDate").FirstValue);
             }
+
+            // // Tags
+            // var valueProviderTags = bindingContext.ValueProvider.GetValue("Tags");
+            // if(valueProviderTags.Length>0){
+            //     // person.Tags = valueProviderTags;
+            // }
             bindingContext.Result = ModelBindingResult.Success(person);
             return Task.CompletedTask;
         }

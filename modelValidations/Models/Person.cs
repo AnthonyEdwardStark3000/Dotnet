@@ -51,6 +51,7 @@ namespace modelValidations.Models{
         [ValidateNever]
         public DateTime? ToDate{get;set;}
 
+        public List<string?> Tags {get;set;} = new List<string>(); 
 
         public override string ToString(){
             return $"Person object - PersonName: {PersonName}\n Email: {Email}\n Phone: {Phone}\n Password: {Password}\n ConfirmPassword: {ConfirmPassword}\n Price: {Price}";
