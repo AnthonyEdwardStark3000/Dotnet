@@ -13,7 +13,7 @@ namespace modelValidations.Controllers{
         // [FromBody][ModelBinder(BinderType = typeof(PersonModelBinder))]Person person){
 
         
-        public IActionResult Index(Person person){
+        public IActionResult Index(Person person, [FromHeader(Name="user-agent")]string UserAgent){
             if(!ModelState.IsValid){
                 // List<string>errorsList = new List<string>();
                 // foreach(var value in ModelState.Values){
@@ -28,7 +28,7 @@ namespace modelValidations.Controllers{
                 return BadRequest(errors);
             }
             logger.Debug($"Hit the API: /register");
-            return Content($"{person}"); // Automatically calls the ToString() of the person Model
+            return Content($"{person}\nHeader Value:{UserAgent}"); // Automatically calls the ToString() of the person Model
         }
     }
 }
