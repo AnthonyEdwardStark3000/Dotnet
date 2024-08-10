@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "A5i1W/PqMgi3UY502xVbjVFlvdWHtveIBS/g3PuQ5SQ=",
+  "Source": "Views",
+  "BasePath": "_content/Views",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Views\\wwwroot",
+      "Source": "Views",
+      "ContentRoot": "d:\\Projects\\Dotnet\\Views\\wwwroot\\",
+      "BasePath": "_content/Views",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
