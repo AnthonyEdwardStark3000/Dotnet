@@ -1,10 +1,22 @@
+@using Views.Models
+@{
+    string appTitle = "ASP.net CORE WebApp Demo application";
+    Person person = new Person(){Name="Hugh Jacksman",DateOfBirth=Convert.ToDateTime("09-03-2000")};
+}
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ASP.net CORE WebApp</title>
+        <title>@appTitle</title>
         <meta charset="utf-8"/>
     </head>
     <body>
         <p>Welcome</p>
+        @{
+            person.Name="AEStark";
+            person.DateOfBirth = Convert.ToDateTime("2000-03-09");
+            int age = (int)Math.Round((DateTime.Now - person.DateOfBirth).TotalDays/365);
+        }
+        <p>Hello @person.Name</p>
+        <p>Born on :@person.DateOfBirth and is @age years old.</p>
     </body>
 </html>
