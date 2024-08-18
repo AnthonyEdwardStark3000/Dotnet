@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A5i1W/PqMgi3UY502xVbjVFlvdWHtveIBS/g3PuQ5SQ=",
+  "Hash": "nIf8GKl9FzyiNwf6TV0/MqpBRFY5cBAn4UQ2TooeIBc=",
   "Source": "Views",
   "BasePath": "_content/Views",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Views\\wwwroot",
       "Source": "Views",
-      "ContentRoot": "d:\\Projects\\Dotnet\\Views\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\Dotnet\\Views\\wwwroot\\",
       "BasePath": "_content/Views",
       "Pattern": "**"
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\Dotnet\\Views\\Views.csproj": {}
+    "D:\\Projects\\Dotnet\\Views\\Views.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\Dotnet\\Views\\Views.csproj": {
+    "D:\\Projects\\Dotnet\\Views\\Views.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\Dotnet\\Views\\Views.csproj",
+        "projectUniqueName": "D:\\Projects\\Dotnet\\Views\\Views.csproj",
         "projectName": "Views",
-        "projectPath": "d:\\Projects\\Dotnet\\Views\\Views.csproj",
+        "projectPath": "D:\\Projects\\Dotnet\\Views\\Views.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\Dotnet\\Views\\obj\\",
+        "outputPath": "D:\\Projects\\Dotnet\\Views\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
