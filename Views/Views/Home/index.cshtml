@@ -1,7 +1,11 @@
 @using Views.Models
 @{
     string appTitle = "ASP.net CORE WebApp Demo application";
-    Person person = new Person(){Name="Hugh Jacksman",DateOfBirth=Convert.ToDateTime("09-03-2000")};
+    Person person = new Person(){Name="Hugh Jacksman",
+    DateOfBirth=Convert.ToDateTime("09-03-2000"),
+    PersonGender = Gender.Male
+    @* DateOfBirth=null *@
+    };
 }
 <!DOCTYPE html>
 <html>
@@ -11,12 +15,28 @@
     </head>
     <body>
         <p>Welcome</p>
-        @{
+            @if(person.DateOfBirth!=null){
+            int age = (int)Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays/365);
             person.Name="AEStark";
             person.DateOfBirth = Convert.ToDateTime("2000-03-09");
-            int age = (int)Math.Round((DateTime.Now - person.DateOfBirth).TotalDays/365);
-        }
-        <p>Hello @person.Name</p>
-        <p>Born on :@person.DateOfBirth and is @age years old.</p>
+            <p>Hello @person.Name</p>
+            <p>Born on :@person.DateOfBirth and is @age years old.</p>
+            }else{
+                <p>Please Enter an age!</p>
+            }
+            @switch(person.PersonGender){
+                case Gender.Male:
+                    <p>Hello Mr.@person.Name</p>;
+                    break;
+                case Gender.Female:
+                    <p>Hello Miss / Mrs.@person.Name</p>;
+                    break;
+                case Gender.Other:
+                    <p>Hello @person.Name</p>;
+                    break;
+                default:
+                    <p>Hello @person.Name</p>; 
+                    break;      
+            }
     </body>
 </html>
