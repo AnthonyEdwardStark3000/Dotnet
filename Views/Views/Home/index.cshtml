@@ -3,8 +3,22 @@
     string appTitle = "ASP.net CORE WebApp Demo application";
     Person person = new Person(){Name="Hugh Jacksman",
     DateOfBirth=Convert.ToDateTime("09-03-2000"),
-    PersonGender = Gender.Male
+    PersonGender = Gender.Male,
     @* DateOfBirth=null *@
+    };
+    List<Person>people = new List<Person>(){
+    new Person(){Name="Hugh Jacksman",
+    DateOfBirth=Convert.ToDateTime("09-03-2000"),
+    PersonGender = Gender.Male,
+    },
+    new Person(){Name="Mark Ruffallo",
+    DateOfBirth=Convert.ToDateTime("19-08-2000"),
+    PersonGender = Gender.Male,
+    },
+    new Person(){Name="Ana de armmas",
+    DateOfBirth=Convert.ToDateTime("09-03-2000"),
+    PersonGender = Gender.Female,
+    }
     };
 }
 <!DOCTYPE html>
@@ -37,6 +51,14 @@
                 default:
                     <p>Hello @person.Name</p>; 
                     break;      
+            }
+            <p>Your classmates are:</p>
+            @foreach(var p in people){
+                <p style="display: inline;">@p.Name <span>-</span></p>
+                @if(p.DateOfBirth!=null){
+                <p style="display: inline;">Born on</p>
+                <p style="display: inline;"><span>: </span>@p.DateOfBirth.Value.ToString("MM/dd/yyyy")</p><br>   
+                }
             }
     </body>
 </html>
