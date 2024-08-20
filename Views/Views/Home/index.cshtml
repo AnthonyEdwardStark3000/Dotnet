@@ -60,5 +60,11 @@
                 <p style="display: inline;"><span>: </span>@p.DateOfBirth.Value.ToString("MM/dd/yyyy")</p><br>   
                 }
             }
+
+            @* for loop *@
+            <p>for loop</p>
+            @for(var i=0;i<2;i++){
+                <p style="display: inline;">@people[i].Name</p><p style="display: inline;">Born on <span>-</span></p><p style="display: inline;">@people[i].DateOfBirth.Value.ToString("dd/MM/yyyy")</p><br>
+            }
     </body>
 </html>
