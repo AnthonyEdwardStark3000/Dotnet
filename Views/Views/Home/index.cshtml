@@ -1,10 +1,10 @@
 @using Views.Models
-@{
+@*@{
     string appTitle = "ASP.net CORE WebApp Demo application";
     Person person = new Person(){Name="Hugh Jacksman",
     DateOfBirth=Convert.ToDateTime("09-03-2000"),
     PersonGender = Gender.Male,
-    @* DateOfBirth=null *@
+     DateOfBirth=null 
     };
     List<Person>people = new List<Person>(){
     new Person(){Name="Hugh Jacksman",
@@ -21,7 +21,7 @@
     }
     };
 
-}
+}*@
      @* Local function *@
             @{
                 double?GetAge(DateTime? DateOfBirth){
@@ -55,7 +55,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>@appTitle</title>
+        @* <title>@appTitle</title> *@
+        @* Accessing data from viewData of the Action (Controller) *@
+        <title>@ViewData["appTitle"]</title>
         <meta charset="utf-8"/>
     </head>
     <body>
@@ -84,7 +86,7 @@
                     break;      
             }
             <p>Your classmates are:</p>
-            @foreach(var p in people){
+            @foreach(var p in ViewData["people"]){
                 <p style="display: inline;">@p.Name <span>-</span></p>
                 @if(p.DateOfBirth!=null){
                 <p style="display: inline;">Born on</p>
