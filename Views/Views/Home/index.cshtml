@@ -49,7 +49,9 @@
     @* This @is known as core block *@
     @{
           @* property for script tag *@
-        string alertMessage = $"<script>alert('{people.Count} person found!')</script>";
+        List<Person>people = (List<Person>)ViewData["people"];
+        Person person = (Person)ViewData["person"];
+        string alertMessage = $"<script>alert({people.Count} person found!')</script>";
     }
 
 <!DOCTYPE html>
@@ -86,7 +88,7 @@
                     break;      
             }
             <p>Your classmates are:</p>
-            @foreach(var p in ViewData["people"]){
+            @foreach(var p in people){
                 <p style="display: inline;">@p.Name <span>-</span></p>
                 @if(p.DateOfBirth!=null){
                 <p style="display: inline;">Born on</p>
