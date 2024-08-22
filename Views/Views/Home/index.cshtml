@@ -61,6 +61,7 @@
         @* Accessing data from viewData of the Action (Controller) *@
         <title>@ViewData["appTitle"]</title>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="~/style.css">
     </head>
     <body>
         <p>Welcome</p>
@@ -68,44 +69,47 @@
             int age = (int)Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays/365);
             person.Name="AEStark";
             person.DateOfBirth = Convert.ToDateTime("2000-03-09");
-            <p>Hello @person.Name</p>
-            <p>Born on :@person.DateOfBirth and is @age years old.</p>
+            <p class="box">Hello @person.Name</p>
+            <p class="box">Born on :@person.DateOfBirth and is @age years old.</p>
             }else{
-                <p>Please Enter an age!</p>
+                <p class="box-danger">Please Enter an age!</p>
             }
             @switch(person.PersonGender){
                 case Gender.Male:
-                    <p>Hello Mr.@person.Name</p>;
+                    <p class="box">Hello Mr.@person.Name</p>;
                     break;
                 case Gender.Female:
-                    <p>Hello Miss / Mrs.@person.Name</p>;
+                    <p class="box">Hello Miss / Mrs.@person.Name</p>;
                     break;
                 case Gender.Other:
-                    <p>Hello @person.Name</p>;
+                    <p class="box">Hello @person.Name</p>;
                     break;
                 default:
-                    <p>Hello @person.Name</p>; 
+                    <p class="box">Hello @person.Name</p>; 
                     break;      
             }
             <p>Your classmates are:</p>
             @foreach(var p in people){
+                <div class="box">
                 <p style="display: inline;">@p.Name <span>-</span></p>
                 @if(p.DateOfBirth!=null){
                 <p style="display: inline;">Born on</p>
                 <p style="display: inline;"><span>: </span>@p.DateOfBirth.Value.ToString("MM/dd/yyyy")</p><br>   
                 }
+                </div>
             }
 
             @* for loop *@
             <p>for loop</p>
             @for(var i=0;i<2;i++){
+                <div class="box">
                 <p style="display: inline;">@people[i].Name</p><p style="display: inline;">Born on <span>-</span></p><p style="display: inline;">@people[i].DateOfBirth.Value.ToString("dd/MM/yyyy")</p><br>
-            
+                </div>   
                 @:printing static content
               <text>using literals in dotnet razor pages.</text>
             }
            
-            <p>My age is @GetAge(Convert.ToDateTime("09-03-2000")) and I like @actor</p>
+            <p class="box">My age is @GetAge(Convert.ToDateTime("09-03-2000")) and I like @actor</p>
             @* Script tag *@
             @Html.Raw(alertMessage)
     </body>
