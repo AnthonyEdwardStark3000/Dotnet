@@ -30,7 +30,7 @@ namespace Views.Controllers{
 
             ViewData["people"] = people;
             ViewData["person"] = person;
-
+            Person SamplePerson = person;
             return View(); // it will check for file named as Index.cshtml from the folder Views / Home
         }
     }

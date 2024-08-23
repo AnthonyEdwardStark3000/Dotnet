@@ -89,7 +89,8 @@
                     break;      
             }
             <p>Your classmates are:</p>
-            @foreach(var p in people){
+           @foreach(var p in people){ @*Making use of ViewData*@
+            @*foreach(var p in ViewBag.people){ Making use of ViewBag*@
                 <div class="box">
                 <p style="display: inline;">@p.Name <span>-</span></p>
                 @if(p.DateOfBirth!=null){
@@ -98,7 +99,14 @@
                 }
                 </div>
             }
-
+            <p>ViewBag</p>
+            @foreach (var p in ViewBag.people)
+            {
+                <div class="box">
+                    <p style="display: inline;font-weight:bold">@p.Name</p>
+                </div>
+            }
+            
             @* for loop *@
             <p>for loop</p>
             @for(var i=0;i<2;i++){
