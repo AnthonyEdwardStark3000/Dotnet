@@ -89,10 +89,10 @@
                     break;      
             }
             <p>Your classmates are:</p>
-           @foreach(var p in people){ @*Making use of ViewData*@
+           @foreach(Person p in people){ @*Making use of ViewData*@
             @*foreach(var p in ViewBag.people){ Making use of ViewBag*@
                 <div class="box">
-                <p style="display: inline;">@p.Name <span>-</span></p>
+                <p style="display: inline;">@p.Name <span>-</span></p>   
                 @if(p.DateOfBirth!=null){
                 <p style="display: inline;">Born on</p>
                 <p style="display: inline;"><span>: </span>@p.DateOfBirth.Value.ToString("MM/dd/yyyy")</p><br>   
@@ -100,10 +100,11 @@
                 </div>
             }
             <p>ViewBag</p>
-            @foreach (var p in ViewBag.people)
+            @foreach (Person p in ViewBag.people)
             {
                 <div class="box">
                     <p style="display: inline;font-weight:bold">@p.Name</p>
+                    <p style="display: inline;font-weight:bold">@p.DateOfBirth?.ToString("MM/dd/yyyy")</p>
                 </div>
             }
             
