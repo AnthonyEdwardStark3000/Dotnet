@@ -13,16 +13,16 @@ namespace Views.Controllers{
             PersonGender = Gender.Male,
             //  DateOfBirth=null 
             };
-            List<Person>people = new List<Person>(){
-            new Person(){Name="Hugh Jacksman",
+            List<Person>people = new List<Person>{
+            new Person{Name="Hugh Jacksman",
             DateOfBirth=Convert.ToDateTime("09-03-2000"),
             PersonGender = Gender.Male,
             },
-            new Person(){Name="Mark Ruffallo",
+            new Person{Name="Mark Ruffallo",
             DateOfBirth=Convert.ToDateTime("19-08-2000"),
             PersonGender = Gender.Male,
             },
-            new Person(){Name="Ana de armmas",
+            new Person{Name="Ana de armmas",
             DateOfBirth=Convert.ToDateTime("09-03-2000"),
             PersonGender = Gender.Female,
             }
@@ -31,11 +31,12 @@ namespace Views.Controllers{
             // ViewData["people"] = people;
             // ViewData["person"] = person;
 
-            ViewBag.people = people;
+            // ViewBag.people = people;
             ViewBag.person = person;
 
             Person SamplePerson = person;
-            return View(); // it will check for file named as Index.cshtml from the folder Views / Home
+            return View(people); // it will check for file named as Index.cshtml from the folder Views / Home
         }
+        // Another action method to bind Model of index.cshtml to a single property 
     }
 }

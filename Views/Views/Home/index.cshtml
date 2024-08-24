@@ -1,4 +1,5 @@
 @using Views.Models
+@model IEnumerable<Person>
 @*@{
     string appTitle = "ASP.net CORE WebApp Demo application";
     Person person = new Person(){Name="Hugh Jacksman",
@@ -49,10 +50,12 @@
     @* This @is known as core block *@
     @{
           @* property for script tag *@
-        List<Person>people = (List<Person>)ViewData["people"];
-        Person person = (Person)ViewData["person"];
+        @* List<Person>people = (List<Person>)ViewData["people"]; *@
+        List<Person>people = (List<Person>)Model;
+        Person? person = ViewData["person"] as Person;  
         string alertMessage = $"<script>alert({people.Count} person found!')</script>";
     }
+    
 
 <!DOCTYPE html>
 <html>
@@ -89,8 +92,10 @@
                     break;      
             }
             <p>Your classmates are:</p>
-           @foreach(Person p in people){ @*Making use of ViewData*@
+           @* @foreach(Person p in people){ *@ @*Making use of ViewData*@
             @*foreach(var p in ViewBag.people){ Making use of ViewBag*@
+            @* Strongly typed views , using model *@
+           @foreach(Person p in Model){ @*Making use of ViewData*@
                 <div class="box">
                 <p style="display: inline;">@p.Name <span>-</span></p>   
                 @if(p.DateOfBirth!=null){
@@ -100,7 +105,8 @@
                 </div>
             }
             <p>ViewBag</p>
-            @foreach (Person p in ViewBag.people)
+            @* @foreach (Person p in ViewBag.people) *@
+            @foreach (Person p in Model)
             {
                 <div class="box">
                     <p style="display: inline;font-weight:bold">@p.Name</p>
