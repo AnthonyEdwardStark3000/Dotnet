@@ -1,0 +1,6 @@
+@LayoutViews_HostAddress = http://localhost:5023
+
+GET {{LayoutViews_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
