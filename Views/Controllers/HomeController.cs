@@ -81,5 +81,10 @@ namespace Views.Controllers{
             };
             return View("PersonAndProduct",personAndProductWrapper);
         }
+
+        [Route("/check/allProducts")]
+        public IActionResult All(){
+            return View();
+        }
     }
 }
