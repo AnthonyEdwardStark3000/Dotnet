@@ -4,7 +4,7 @@ namespace Views.Controllers{
     [ApiController]
     [Route("[controller]")]
     public class HomeController:Controller{
-        [Route("index")]
+        // [Route("index")]
         public IActionResult Index(){
             ViewData["appTitle"]="ASP.net CORE WebApp Demo application";
 
@@ -14,11 +14,11 @@ namespace Views.Controllers{
             //  DateOfBirth=null 
             };
             List<Person>people = new List<Person>(){
-            new Person(){Name="Hugh Jacksman",
+            new Person(){Name="HughJacksman",
             DateOfBirth=Convert.ToDateTime("09-03-2000"),
             PersonGender = Gender.Male,
             },
-            new Person(){Name="Mark Ruffallo",
+            new Person(){Name="MarkRuffallo",
             DateOfBirth=Convert.ToDateTime("19-08-2000"),
             PersonGender = Gender.Male,
             },
@@ -44,11 +44,11 @@ namespace Views.Controllers{
                 return Content("Person Name cannot be null !");
             }
             List<Person>people = new List<Person>(){
-            new Person(){Name="Hugh Jacksman",
+            new Person(){Name="HughJacksman",
             DateOfBirth=Convert.ToDateTime("09-03-2000"),
             PersonGender = Gender.Male,
             },
-            new Person(){Name="Mark Ruffallo",
+            new Person(){Name="MarkRuffallo",
             DateOfBirth=Convert.ToDateTime("19-08-2000"),
             PersonGender = Gender.Male,
             },
