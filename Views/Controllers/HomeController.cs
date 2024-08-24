@@ -28,8 +28,12 @@ namespace Views.Controllers{
             }
             };
 
-            ViewData["people"] = people;
-            ViewData["person"] = person;
+            // ViewData["people"] = people;
+            // ViewData["person"] = person;
+
+            ViewBag.people = people;
+            ViewBag.person = person;
+
             Person SamplePerson = person;
             return View(); // it will check for file named as Index.cshtml from the folder Views / Home
         }
