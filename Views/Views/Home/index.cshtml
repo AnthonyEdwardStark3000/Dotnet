@@ -1,4 +1,4 @@
-@using Views.Models
+@* @using Views.Models  imported in the _ViewImports*@
 @model IEnumerable<Person>
 @*@{
     string appTitle = "ASP.net CORE WebApp Demo application";
@@ -67,7 +67,7 @@
         <link rel="stylesheet" href="~/style.css">
     </head>
     <body>
-        <p>Welcome</p>
+        <p>Persons</p>
             @if(person.DateOfBirth!=null){
             int age = (int)Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays/365);
             person.Name="AEStark";
@@ -128,5 +128,6 @@
             <p class="box">My age is @GetAge(Convert.ToDateTime("09-03-2000")) and I like @actor</p>
             @* Script tag *@
             @Html.Raw(alertMessage)
+            <a href="/home/person-with-product">Person with Product</a>
     </body>
 </html>

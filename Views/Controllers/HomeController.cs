@@ -61,5 +61,25 @@ namespace Views.Controllers{
             Person? MatchingPerson = people.Where(temp=> temp.Name == name).FirstOrDefault();
             return View(MatchingPerson);  // Views /Home /Details.cshtml
         }
+
+        [Route("person-with-product")]
+        public IActionResult PersonWithProduct(){
+            Person person = new Person(){
+                Name = "Person One",
+                PersonGender = Gender.Male,
+                DateOfBirth=Convert.ToDateTime("09-03-2000"),
+            };
+
+            Product product = new Product(){
+                ProductId = 100,
+                ProductName = "Product 1"
+            };
+
+            PersonAndProductWrapper personAndProductWrapper = new PersonAndProductWrapper(){
+                PersonData = person,
+                ProductData = product
+            };
+            return View("PersonAndProduct",personAndProductWrapper);
+        }
     }
 }
