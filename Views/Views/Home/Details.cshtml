@@ -1,0 +1,21 @@
+@using Views.Models;
+@model Person 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Details</title>
+    <link rel="stylesheet" href="~style.css">
+</head>
+<body>
+    <h1>Person Details</h1>
+     <div class="box">
+     <p style="display: inline;">@Model?.Name <span>-</span></p>   
+     @if(@Model?.DateOfBirth!=null){
+        <p style="display: inline;">Born on</p>
+        <p style="display: inline;"><span>: </span>@Model?.DateOfBirth.Value.ToString("MM/dd/yyyy")</p><br>   
+        }
+     </div>
+</body>
+</html>
