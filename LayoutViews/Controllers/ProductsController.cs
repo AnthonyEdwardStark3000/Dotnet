@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LayoutViews.Controllers{
     [ApiController]
-    [Route("[controller]")]
+    // [Route("[controller]")]
     public class ProductsController:Controller{
         [Route("products")]
         public IActionResult Index(){
