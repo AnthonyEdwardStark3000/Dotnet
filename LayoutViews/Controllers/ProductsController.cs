@@ -8,8 +8,11 @@ namespace LayoutViews.Controllers{
         public IActionResult Index(){
             return View();
         }
-        [Route("search-products")]
-        public IActionResult Search(){
+
+        // url : -  search-products/1
+        [Route("search-products/{ProductID?}")]
+        public IActionResult Search(int? ProductID){
+            ViewBag.ProductID = ProductID;
             return View();
         }
         [Route("order-product")]

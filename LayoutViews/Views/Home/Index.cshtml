@@ -1,5 +1,6 @@
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    @* Layout = "~/Views/Shared/_Layout.cshtml"; *@
+    ViewData["Title"]="Home page Index";
 }
 @* The content Entered here after the code declaration block will be displayed in the Layout mentioned *@
-<h1>Inside Home Page Index</h1>
+<h1>Inside @ViewData["Title"]</h1>
