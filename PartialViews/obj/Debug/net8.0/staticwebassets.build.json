@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "hFIHQ5/AZwl91DAFzzkNZVW00y4bQ21eQ7vA5gdiOjY=",
+  "Source": "PartialViews",
+  "BasePath": "_content/PartialViews",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PartialViews\\wwwroot",
+      "Source": "PartialViews",
+      "ContentRoot": "d:\\Projects\\Dotnet\\PartialViews\\wwwroot\\",
+      "BasePath": "_content/PartialViews",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "d:\\Projects\\Dotnet\\PartialViews\\wwwroot\\style.css",
+      "SourceId": "PartialViews",
+      "SourceType": "Discovered",
+      "ContentRoot": "d:\\Projects\\Dotnet\\PartialViews\\wwwroot\\",
+      "BasePath": "_content/PartialViews",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}
