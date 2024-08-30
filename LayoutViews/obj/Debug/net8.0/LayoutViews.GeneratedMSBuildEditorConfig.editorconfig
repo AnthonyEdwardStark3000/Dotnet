@@ -9,47 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LayoutViews
 build_property.RootNamespace = LayoutViews
-build_property.ProjectDir = d:\Projects\Dotnet\LayoutViews\
+build_property.ProjectDir = D:\Projects\Dotnet\LayoutViews\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Projects\Dotnet\LayoutViews
+build_property.MSBuildProjectDirectory = D:\Projects\Dotnet\LayoutViews
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Home/About.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Home/Contact.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Home/Index.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Products/Index.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Products/Order.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Products/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Products/Search.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Products/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Shared/_Layout.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Products/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dotnet/LayoutViews/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/Shared/_products.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/Shared/_MasterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYXN0ZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dotnet/LayoutViews/Views/Shared/_products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/LayoutViews/Views/_ViewStart.cshtml]
+[D:/Projects/Dotnet/LayoutViews/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

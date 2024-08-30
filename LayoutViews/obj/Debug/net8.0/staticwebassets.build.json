@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VmBsI3fA2Ge4d7Awxyxv1PVPD4Nn5KKogXvVEdgtPOg=",
+  "Hash": "eJPpqtxvwEuPaSBbX55zSsklHnJN3sFbN7mYFJaSobU=",
   "Source": "LayoutViews",
   "BasePath": "_content/LayoutViews",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LayoutViews\\wwwroot",
       "Source": "LayoutViews",
-      "ContentRoot": "d:\\Projects\\Dotnet\\LayoutViews\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\Dotnet\\LayoutViews\\wwwroot\\",
       "BasePath": "_content/LayoutViews",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "d:\\Projects\\Dotnet\\LayoutViews\\wwwroot\\style.css",
+      "Identity": "D:\\Projects\\Dotnet\\LayoutViews\\wwwroot\\style.css",
       "SourceId": "LayoutViews",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Projects\\Dotnet\\LayoutViews\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\Dotnet\\LayoutViews\\wwwroot\\",
       "BasePath": "_content/LayoutViews",
       "RelativePath": "style.css",
       "AssetKind": "All",

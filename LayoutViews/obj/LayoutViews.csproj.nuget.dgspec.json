@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj": {}
+    "D:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj": {
+    "D:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj",
+        "projectUniqueName": "D:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj",
         "projectName": "LayoutViews",
-        "projectPath": "d:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj",
+        "projectPath": "D:\\Projects\\Dotnet\\LayoutViews\\LayoutViews.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\Dotnet\\LayoutViews\\obj\\",
+        "outputPath": "D:\\Projects\\Dotnet\\LayoutViews\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

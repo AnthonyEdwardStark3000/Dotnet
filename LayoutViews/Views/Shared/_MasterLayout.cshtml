@@ -1,23 +1,19 @@
-@{
-    Layout = "~/Views/Shared/_MasterLayout.cshtml";
-}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products layout</title>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
-            <ul>
-                <li>Products</li>
-            </ul>
+        <div class="header" style="text-align: center;">
+            ASP .NET Core Demo App
         </div>
-        <div>
-        @RenderBody()
     </div>
+    <div>
+        @RenderBody()
     </div>
 </body>
 </html>
