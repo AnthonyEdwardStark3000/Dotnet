@@ -29,3 +29,9 @@ d:\Projects\Dotnet\PartialViews\obj\Debug\net8.0\PartialV.A1AC3F18.Up2Date
 d:\Projects\Dotnet\PartialViews\obj\Debug\net8.0\PartialViews.dll
 d:\Projects\Dotnet\PartialViews\obj\Debug\net8.0\refint\PartialViews.dll
 d:\Projects\Dotnet\PartialViews\obj\Debug\net8.0\PartialViews.pdb
+d:\Projects\Dotnet\PartialViews\bin\Debug\net8.0\PartialViews.deps.json
+d:\Projects\Dotnet\PartialViews\bin\Debug\net8.0\PartialViews.runtimeconfig.json
+d:\Projects\Dotnet\PartialViews\bin\Debug\net8.0\PartialViews.dll
+d:\Projects\Dotnet\PartialViews\bin\Debug\net8.0\PartialViews.pdb
+d:\Projects\Dotnet\PartialViews\obj\Debug\net8.0\PartialViews.genruntimeconfig.cache
+d:\Projects\Dotnet\PartialViews\obj\Debug\net8.0\ref\PartialViews.dll
