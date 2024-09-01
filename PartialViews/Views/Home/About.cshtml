@@ -1,1 +1,15 @@
 <h1>About</h1>
+<partial name="_ListPartialView"></partial>
+<partial name="_ListPartialView"></partial>
+<div class="box">
+@{
+    ViewData["ListTitle"] = "Different Data";
+    ViewData["ListItems"] = new List<string>{
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    };
+}    
+<partial name="_ListPartialView"></partial>
+</div>
