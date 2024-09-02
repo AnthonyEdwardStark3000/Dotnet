@@ -1,10 +1,25 @@
-<div class="list-container">
+@* <div class="list-container">
     @if(@ViewBag.ListTitle!=null){
     <h3>@ViewBag.ListTitle</h3>
     }
     <ul class="list">
         @if(@ViewBag.ListItems!=null && @ViewBag.ListItems.Count>0){
         @foreach(string item in @ViewBag.ListItems){
+        <li>@item</li>
+        }
+        }
+    </ul>
+</div> *@
+
+@* access data directly from Model , strongly typed Partial Views *@
+@model ListModel
+<div class="list-container">
+    @if(Model.ListTitle!=null){
+    <h3>Model.ListTitle</h3>
+    }
+    <ul class="list">
+        @if(Model.ListItems!=null && Model.ListItems.Count>0){
+        @foreach(string item in Model.ListItems){
         <li>@item</li>
         }
         }

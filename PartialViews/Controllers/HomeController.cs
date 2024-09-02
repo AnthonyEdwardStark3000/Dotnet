@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using PartialViews.Models;
 namespace PartialViews.Controllers{
     public class HomeController:Controller{
         [Route("/")]
@@ -8,6 +9,14 @@ namespace PartialViews.Controllers{
 
         [Route("about")]
         public IActionResult About(){
+            return View();
+        }
+
+        [Route("programmingLanguages")]
+        public IActionResult ProgrammingLanguages(){
+           ListModel listmodel = new ListModel(){
+            ListTitle = "Programming Languages",
+           }; 
             return View();
         }
     }
