@@ -1,0 +1,35 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ViewComponent
+build_property.RootNamespace = ViewComponent
+build_property.ProjectDir = D:\Projects\Dotnet\ViewComponent\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\Dotnet\ViewComponent
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/Dotnet/ViewComponent/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dotnet/ViewComponent/View/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dotnet/ViewComponent/View/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dotnet/ViewComponent/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

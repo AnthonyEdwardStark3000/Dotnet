@@ -1,0 +1,6 @@
+@ViewComponent_HostAddress = http://localhost:5188
+
+GET {{ViewComponent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
