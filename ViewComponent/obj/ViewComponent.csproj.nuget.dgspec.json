@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj": {}
+    "d:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj": {
+    "d:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj",
+        "projectUniqueName": "d:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj",
         "projectName": "ViewComponent",
-        "projectPath": "D:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj",
+        "projectPath": "d:\\Projects\\Dotnet\\ViewComponent\\ViewComponent.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Dotnet\\ViewComponent\\obj\\",
+        "outputPath": "d:\\Projects\\Dotnet\\ViewComponent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
