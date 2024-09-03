@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ViewComponent.Controllers{
+namespace ViewComponentsExample.Controllers{
     public class HomeController:Controller{
         [Route("/")]
         public IActionResult Index(){
