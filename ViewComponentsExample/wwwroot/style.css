@@ -107,3 +107,19 @@
     background-color: #3a81bd;
     color:#ffffff;
 }
+
+.w-75{
+    width:75%;
+}
+
+.w-90{
+    width:90%;
+}
+
+.w-100{
+    width:100%;
+}
+
+.mt{
+    margin-top: 10px;
+}
