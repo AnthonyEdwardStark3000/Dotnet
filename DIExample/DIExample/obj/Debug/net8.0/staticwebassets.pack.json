@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DIExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DIExample.props",
+      "PackagePath": "build\\DIExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DIExample.props",
+      "PackagePath": "buildMultiTargeting\\DIExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DIExample.props",
+      "PackagePath": "buildTransitive\\DIExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

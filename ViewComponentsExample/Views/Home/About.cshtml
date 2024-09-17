@@ -2,5 +2,16 @@
     ViewBag.Title = "About";
 }
 <h1>About page</h1>
-@await Component.InvokeAsync("Grid")
+@{
+    PersonGridModel personGridModel = new PersonGridModel(){
+        GridTitle = "About Persons",
+        Persons = new List<Person>(){
+            new Person(){ PersonName = "Anthony", JobTitle = "Genius"},
+            new Person(){ PersonName = "Edward", JobTitle = "Billionaire"},
+            new Person(){ PersonName = "Stark", JobTitle = "PlayBoy"},
+            new Person(){ PersonName = "Howard", JobTitle = "Philanthrophist"},
+        }
+    };
+}
+@await Component.InvokeAsync("Grid", new{grid=personGridModel})
 <vc:grid></vc:grid>

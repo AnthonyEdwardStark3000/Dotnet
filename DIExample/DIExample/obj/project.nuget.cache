@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WroO9FrISKU=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\DIExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

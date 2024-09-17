@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "vIrsYSj6iFU+lp1DNUqUlvXWSNkFfKpnorMkgONyCXE=",
+  "Source": "DIExample",
+  "BasePath": "_content/DIExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DIExample\\wwwroot",
+      "Source": "DIExample",
+      "ContentRoot": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\wwwroot\\",
+      "BasePath": "_content/DIExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\wwwroot\\style.css",
+      "SourceId": "DIExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\wwwroot\\",
+      "BasePath": "_content/DIExample",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {}
+    "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {
+    "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
+        "projectUniqueName": "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
         "projectName": "modelValidations",
-        "projectPath": "d:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
+        "projectPath": "D:\\Projects\\Dotnet\\modelValidations\\modelValidations.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\Dotnet\\modelValidations\\obj\\",
+        "outputPath": "D:\\Projects\\Dotnet\\modelValidations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

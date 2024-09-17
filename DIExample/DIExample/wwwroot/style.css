@@ -1,0 +1,10 @@
+﻿.list-container{
+    margin-top:9px;
+}
+
+.list{
+    list-style-type:none;
+    background-color:#ececec;
+    border:1px solid #ececec;
+    border-radius:8px;
+}

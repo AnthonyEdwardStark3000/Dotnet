@@ -9,35 +9,35 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ViewComponent
 build_property.RootNamespace = ViewComponent
-build_property.ProjectDir = d:\Projects\Dotnet\ViewComponentsExample\
+build_property.ProjectDir = D:\Projects\Dotnet\ViewComponentsExample\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Projects\Dotnet\ViewComponentsExample
+build_property.MSBuildProjectDirectory = D:\Projects\Dotnet\ViewComponentsExample
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Projects/Dotnet/ViewComponentsExample/Views/Home/About.cshtml]
+[D:/Projects/Dotnet/ViewComponentsExample/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/ViewComponentsExample/Views/Home/Index.cshtml]
+[D:/Projects/Dotnet/ViewComponentsExample/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/ViewComponentsExample/Views/Shared/Components/Grid/Sample.cshtml]
+[D:/Projects/Dotnet/ViewComponentsExample/Views/Shared/Components/Grid/Sample.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcR3JpZFxTYW1wbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/ViewComponentsExample/Views/Shared/_Layout.cshtml]
+[D:/Projects/Dotnet/ViewComponentsExample/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/ViewComponentsExample/Views/_ViewImports.cshtml]
+[D:/Projects/Dotnet/ViewComponentsExample/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projects/Dotnet/ViewComponentsExample/Views/_ViewStart.cshtml]
+[D:/Projects/Dotnet/ViewComponentsExample/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

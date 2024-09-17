@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mYosHaeOrIw=",
+  "dgSpecHash": "+Vyx0bRQcKk=",
   "success": true,
-  "projectFilePath": "d:\\Projects\\Dotnet\\ViewComponentsExample\\ViewComponent.csproj",
+  "projectFilePath": "D:\\Projects\\Dotnet\\ViewComponentsExample\\ViewComponent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.8\\microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

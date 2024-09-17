@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "d:\\Projects\\Dotnet\\ViewComponentsExample\\wwwroot\\friends.js",
+      "PackagePath": "staticwebassets\\friends.js"
+    },
+    {
       "Id": "d:\\Projects\\Dotnet\\ViewComponentsExample\\wwwroot\\style.css",
       "PackagePath": "staticwebassets\\style.css"
     },

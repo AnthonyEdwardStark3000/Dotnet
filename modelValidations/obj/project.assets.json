@@ -493,7 +493,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.7",
-      "Nlog >= 5.3.2",
+      "NLog >= 5.3.2",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -545,7 +545,7 @@
             "target": "Package",
             "version": "[8.0.7, )"
           },
-          "Nlog": {
+          "NLog": {
             "target": "Package",
             "version": "[5.3.2, )"
           },
@@ -573,7 +573,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

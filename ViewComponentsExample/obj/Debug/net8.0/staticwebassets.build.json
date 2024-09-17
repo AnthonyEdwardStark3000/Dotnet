@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O0LP+skH2eLe9IcwAhs9jGCA7FX8EyPiFxNAGwaaVVs=",
+  "Hash": "X+sGXusTRT6dad/6vi7BhbKl1Kj9wRjoKrVIMGFxd6s=",
   "Source": "ViewComponent",
   "BasePath": "_content/ViewComponent",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "d:\\Projects\\Dotnet\\ViewComponentsExample\\wwwroot\\friends.js",
+      "SourceId": "ViewComponent",
+      "SourceType": "Discovered",
+      "ContentRoot": "d:\\Projects\\Dotnet\\ViewComponentsExample\\wwwroot\\",
+      "BasePath": "_content/ViewComponent",
+      "RelativePath": "friends.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\friends.js"
+    },
     {
       "Identity": "d:\\Projects\\Dotnet\\ViewComponentsExample\\wwwroot\\style.css",
       "SourceId": "ViewComponent",

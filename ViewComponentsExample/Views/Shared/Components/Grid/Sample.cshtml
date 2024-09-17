@@ -1,4 +1,7 @@
-<h1>Grid View Component</h1>
+@model PersonGridModel
+
+@* <h1>@ViewBag.Grid.GridTitle</h1> *@
+<h1>@Model.GridTitle</h1> @*Tightly coupled model*@
 <div class="box">
     <table class="table w-100">
         <thead>
@@ -8,18 +11,18 @@
             </tr>
         </thead>
         <tbody>
+            @* @foreach(Person p in ViewBag.Grid.Persons){
             <tr>
-                <td>1</td>
-                <td>One</td>
+                <td>@p.PersonName</td>
+                <td>@p.JobTitle</td>
             </tr>
+            } *@
+            @foreach(Person p in @Model.Persons){
             <tr>
-                <td>2</td>
-                <td>Two</td>
+                <td>@p.PersonName</td>
+                <td>@p.JobTitle</td>
             </tr>
-            <tr>
-                <td>3</td>
-                <td>Three</td>
-            </tr>
+            }
         </tbody>
     </table>
 </div>
