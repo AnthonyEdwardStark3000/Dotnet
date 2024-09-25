@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Dotnet\\DIExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC582-B83C-4A7C-8B81-BD4FD3326670}|DIExample\\DIExample.csproj|d:\\projects\\dotnet\\diexample\\diexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC582-B83C-4A7C-8B81-BD4FD3326670}|DIExample\\DIExample.csproj|solutionrelative:diexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC582-B83C-4A7C-8B81-BD4FD3326670}|DIExample\\DIExample.csproj|d:\\projects\\dotnet\\diexample\\diexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC582-B83C-4A7C-8B81-BD4FD3326670}|DIExample\\DIExample.csproj|solutionrelative:diexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA313CA1-3C3D-491B-AC2D-454376237F9D}|Services\\Services.csproj|d:\\projects\\dotnet\\diexample\\services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA313CA1-3C3D-491B-AC2D-454376237F9D}|Services\\Services.csproj|solutionrelative:services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC582-B83C-4A7C-8B81-BD4FD3326670}|DIExample\\DIExample.csproj|d:\\projects\\dotnet\\diexample\\diexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7FEC582-B83C-4A7C-8B81-BD4FD3326670}|DIExample\\DIExample.csproj|solutionrelative:diexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE57ECC7-29DC-40B6-B4E5-4D612263BFDE}|ServicesContract\\ServiceContracts.csproj|d:\\projects\\dotnet\\diexample\\servicescontract\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE57ECC7-29DC-40B6-B4E5-4D612263BFDE}|ServicesContract\\ServiceContracts.csproj|solutionrelative:servicescontract\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\Program.cs",
+              "RelativeDocumentMoniker": "DIExample\\Program.cs",
+              "ToolTip": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\Program.cs",
+              "RelativeToolTip": "DIExample\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T17:30:12.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DIExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DIExample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T17:25:04.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DIExample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\Dotnet\\DIExample\\DIExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DIExample\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA1wD4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T03:25:46.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitiesService.cs",
+              "DocumentMoniker": "D:\\Projects\\Dotnet\\DIExample\\Services\\CitiesService.cs",
+              "RelativeDocumentMoniker": "Services\\CitiesService.cs",
+              "ToolTip": "D:\\Projects\\Dotnet\\DIExample\\Services\\CitiesService.cs",
+              "RelativeToolTip": "Services\\CitiesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T03:18:47.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICitiesService.cs",
+              "DocumentMoniker": "D:\\Projects\\Dotnet\\DIExample\\ServicesContract\\ICitiesService.cs",
+              "RelativeDocumentMoniker": "ServicesContract\\ICitiesService.cs",
+              "ToolTip": "D:\\Projects\\Dotnet\\DIExample\\ServicesContract\\ICitiesService.cs",
+              "RelativeToolTip": "ServicesContract\\ICitiesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:59:57.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

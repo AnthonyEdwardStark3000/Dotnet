@@ -1,0 +1,1 @@
+2024-09-25 00:04:03.9181 (  12) ERROR [HomeController] From Home Controller | Current DI is | null 

@@ -3,6 +3,7 @@ using Services;
 using ServiceContracts;
 using NLog;
 using Microsoft.Extensions.DependencyInjection;
+using Autofac;
 
 namespace DIExample.Controllers
 {
@@ -15,13 +16,15 @@ namespace DIExample.Controllers
         private readonly ICitiesService _citiesService2; //DI
         private readonly ICitiesService _citiesService3; //DI
 
-        private readonly IServiceScopeFactory _serviceScopeFactory;
+        // private readonly IServiceScopeFactory _serviceScopeFactory; // For IOC container
+        private readonly ILifetimeScope _lifetimeScope; // Autofac instead of default IOC container
 
         private static Logger logger = LogManager.GetCurrentClassLogger();
         private readonly IServiceProvider _serviceProvider;
 
         //Constructor
-        public HomeController(ICitiesService citiesService, ICitiesService citiesService1, ICitiesService citiesService2, ICitiesService citiesService3, IServiceProvider serviceProvider, IServiceScopeFactory serviceScopeFactory)
+        // public HomeController(ICitiesService citiesService, ICitiesService citiesService1, ICitiesService citiesService2, ICitiesService citiesService3, IServiceProvider serviceProvider, IServiceScopeFactory serviceScopeFactory) // IOC container
+        public HomeController(ICitiesService citiesService, ICitiesService citiesService1, ICitiesService citiesService2, ICitiesService citiesService3, IServiceProvider serviceProvider, ILifetimeScope serviceScopeFactory) //  Autofac
         {
             // Create Object of Cities service class
             // _citiesService = new CitiesService(); // Instantiating the service
@@ -31,7 +34,8 @@ namespace DIExample.Controllers
             _citiesService3 = citiesService3;// DI
 
             _serviceProvider = serviceProvider;
-            _serviceScopeFactory = serviceScopeFactory;
+            // _serviceScopeFactory = serviceScopeFactory; // Default IOC container
+            _lifetimeScope = serviceScopeFactory;
         }
         [Route("/")]
         public IActionResult Index([FromServices] ICitiesService _citiesService)
@@ -58,9 +62,13 @@ namespace DIExample.Controllers
             ViewBag.InstanceId_CitiesService_3 = _citiesService2.ServiceInstanceId;
             ViewBag.InstanceId_CitiesService_4 = _citiesService3.ServiceInstanceId;
 
-            using (IServiceScope scope= _serviceScopeFactory.CreateScope()) {
+            // using (IServiceScope scope= _serviceScopeFactory.CreateScope()) { // Default IOC container
+            using (ILifetimeScope scope = _lifetimeScope.BeginLifetimeScope()) { // Autofac
                 // Inject CitiesService
-                scope.ServiceProvider.GetRequiredService<ICitiesService>();
+                // ICitiesService citiesService = scope.ServiceProvider.GetRequiredService<ICitiesService>(); //Default IOC container
+                ICitiesService citiesService = scope.Resolve<ICitiesService>(); // Autofac
+                
+                ViewBag.InstanceId_CitiesService_InScope = citiesService.ServiceInstanceId;
                 // end of scope, automatically calls CitiesService.Dispose()
             }
                 return View(cities); // sending it as model object to the View

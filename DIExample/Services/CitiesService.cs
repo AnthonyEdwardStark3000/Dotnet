@@ -12,7 +12,7 @@ namespace Services
         public CitiesService() { 
             _serviceInstanceId = Guid.NewGuid();
             _cities = new List<string>() { 
-               "London", "Chicago", "Paris", "Moscow","Tokyo"
+               "London", "Chicago", "Paris", "Moscow","Tokyo","HiddenLeaf"
             };
             // Open database connection
         }

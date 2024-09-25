@@ -35,3 +35,6 @@ D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\nlog.config
 D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\NLog.dll
 D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\ServiceContracts.dll
 D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\ServiceContracts.pdb
+D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\Autofac.dll
+D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+D:\Projects\Dotnet\DIExample\DIExample\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

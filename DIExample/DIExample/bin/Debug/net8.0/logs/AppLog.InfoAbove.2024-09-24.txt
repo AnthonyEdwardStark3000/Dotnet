@@ -1,0 +1,15 @@
+2024-09-24 23:35:57.8477 (  11)  INFO [HomeController] From Home Controller | Current DI is | Scoped and the istance ID created is |
+ instanceId:6b3dbba2-fb93-4c83-9c7b-f56860963f44|
+instanceId1:6b3dbba2-fb93-4c83-9c7b-f56860963f44|
+instanceId2:6b3dbba2-fb93-4c83-9c7b-f56860963f44|
+instanceId3:6b3dbba2-fb93-4c83-9c7b-f56860963f44 
+2024-09-24 23:36:52.2889 (   7)  INFO [HomeController] From Home Controller | Current DI is | Scoped and the istance ID created is |
+ instanceId:54d4ccf1-53f7-45cd-b837-8085de307e83|
+instanceId1:54d4ccf1-53f7-45cd-b837-8085de307e83|
+instanceId2:54d4ccf1-53f7-45cd-b837-8085de307e83|
+instanceId3:54d4ccf1-53f7-45cd-b837-8085de307e83 
+2024-09-24 23:37:02.7971 (  12)  INFO [HomeController] From Home Controller | Current DI is | Scoped and the istance ID created is |
+ instanceId:80920378-dc2e-4d4e-ae55-6f2aac8acb3d|
+instanceId1:80920378-dc2e-4d4e-ae55-6f2aac8acb3d|
+instanceId2:80920378-dc2e-4d4e-ae55-6f2aac8acb3d|
+instanceId3:80920378-dc2e-4d4e-ae55-6f2aac8acb3d 
