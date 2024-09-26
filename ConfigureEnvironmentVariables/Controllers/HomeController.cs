@@ -11,9 +11,17 @@ namespace ConfigureEnvironmentVariables.Controllers{
         }
 
         [Route("/")]
-        [Route("Index")]
         public IActionResult Index(){
-            logger.Info($"Inside the Get request of |{nameof(HomeController)}|and {nameof(Index)} method");
+            var mode = string.Empty;
+            if(_webHostEnvironment.IsDevelopment()){
+                mode = "Development";
+            }else if(_webHostEnvironment.IsStaging()){
+                mode = "Staging";    
+            }else{
+                mode = "Production";
+            }
+            logger.Info($"Inside the Get request of |{nameof(HomeController)}|and {nameof(Index)} method | and is running in {mode} Mode");
+            ViewBag.CurrentEnvironment = mode;
             return View();
         }
     }

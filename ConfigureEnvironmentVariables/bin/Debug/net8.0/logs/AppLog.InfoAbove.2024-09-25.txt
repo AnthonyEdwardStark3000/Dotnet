@@ -1,5 +1,0 @@
-2024-09-25 23:54:30.9230 (  12)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
-2024-09-25 23:56:01.7481 (   9)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
-2024-09-25 23:56:37.9948 (   7)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
-2024-09-25 23:56:39.2867 (  10)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
-2024-09-25 23:57:24.9384 (  10)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
