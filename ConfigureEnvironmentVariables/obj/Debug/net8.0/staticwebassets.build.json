@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "8ZzeLGr5wRcRogIZ7k0S+W0di+TOQJeuvMU00OIAbn8=",
+  "Source": "ConfigureEnvironmentVariables",
+  "BasePath": "_content/ConfigureEnvironmentVariables",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ConfigureEnvironmentVariables\\wwwroot",
+      "Source": "ConfigureEnvironmentVariables",
+      "ContentRoot": "D:\\Projects\\Dotnet\\ConfigureEnvironmentVariables\\wwwroot\\",
+      "BasePath": "_content/ConfigureEnvironmentVariables",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Dotnet\\ConfigureEnvironmentVariables\\wwwroot\\style.css",
+      "SourceId": "ConfigureEnvironmentVariables",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Dotnet\\ConfigureEnvironmentVariables\\wwwroot\\",
+      "BasePath": "_content/ConfigureEnvironmentVariables",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

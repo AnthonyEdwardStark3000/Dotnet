@@ -1,0 +1,2 @@
+2024-09-26 00:02:12.6903 (  11)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
+2024-09-26 00:02:26.7712 (   8)  INFO [HomeController] Inside the Get request of |HomeController|and Index method 
