@@ -49,3 +49,23 @@ body{
 .full-size-height{
     min-height: 100vh;
 }
+
+.button{
+    padding: 8px 12px;
+    border: 2px solid #cacaca;
+    border-radius: 8px;
+    outline: 3px solid #ffffff;
+    font-size: 101%;
+}
+
+.button-blue-back{
+    background-color: #3a81bd;
+    color:#ffffff;
+    border: 2px solid #3f80ca;
+}
+
+.button-blue-back{
+    background-color: #38be26;
+    color:#ffffff;
+    border: 2px solid #3f80ca;
+}

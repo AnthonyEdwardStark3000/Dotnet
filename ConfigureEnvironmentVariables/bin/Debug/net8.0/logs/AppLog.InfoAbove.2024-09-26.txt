@@ -1,1 +1,2 @@
-2024-09-26 09:24:57.4527 (   7)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Development Mode 
+2024-09-26 23:57:56.1916 (   9)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Development Mode 
+2024-09-26 23:58:53.0213 (  12)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 

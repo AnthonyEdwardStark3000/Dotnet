@@ -1,0 +1,7 @@
+2024-09-27 00:02:07.9131 (   9)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
+2024-09-27 00:02:15.5401 (  15)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
+2024-09-27 00:02:45.6172 (   4)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
+2024-09-27 00:03:42.7179 (  13)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
+2024-09-27 00:03:59.7172 (  11)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
+2024-09-27 00:04:14.4930 (  13)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
+2024-09-27 00:04:15.7422 (  14)  INFO [HomeController] Inside the Get request of |HomeController|and Index method | and is running in Production Mode 
