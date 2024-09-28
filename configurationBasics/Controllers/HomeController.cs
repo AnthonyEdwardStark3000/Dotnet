@@ -8,7 +8,15 @@ namespace configurationBasics.Controllers{
         }
         [Route("/")]
         public IActionResult Index(){
-            ViewBag.property = _configuration.GetValue<string>("Sample check");
+
+            IConfigurationSection userID = _configuration.GetSection("WeatherApi");    
+
+            ViewBag.property = _configuration.GetValue<string>("Sample check","This will be displayed if no value if found!");
+            ViewBag.UserID = _configuration.GetValue<string>("WeatherApi:clientId");
+
+            ViewBag.UserIdentification = userID["userId"];
+
+            ViewBag.Password = _configuration.GetValue<string>("WeatherApi:password");
             return View();
         }
     }

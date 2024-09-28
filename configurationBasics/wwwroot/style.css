@@ -69,3 +69,10 @@ body{
     color:#ffffff;
     border: 2px solid #3f80ca;
 }
+
+.box{
+    background-color: #3a81bd;
+    color:#ffffff;
+    min-width: 500px;
+    border: 1px solid #3f80ca;
+}
