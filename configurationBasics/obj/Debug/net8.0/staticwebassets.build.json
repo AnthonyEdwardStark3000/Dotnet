@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "KfNFVrEaFVD4/I8wbTMmVKc5sTNIRpiMqG9uRBRPpug=",
+  "Source": "configurationBasics",
+  "BasePath": "_content/configurationBasics",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "configurationBasics\\wwwroot",
+      "Source": "configurationBasics",
+      "ContentRoot": "D:\\Projects\\Dotnet\\configurationBasics\\wwwroot\\",
+      "BasePath": "_content/configurationBasics",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Dotnet\\configurationBasics\\wwwroot\\style.css",
+      "SourceId": "configurationBasics",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Dotnet\\configurationBasics\\wwwroot\\",
+      "BasePath": "_content/configurationBasics",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}
