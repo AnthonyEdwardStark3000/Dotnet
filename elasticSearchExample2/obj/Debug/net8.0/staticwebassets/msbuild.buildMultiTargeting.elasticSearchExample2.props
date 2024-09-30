@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\elasticSearchExample2.props" />
+</Project>

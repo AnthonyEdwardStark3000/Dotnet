@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "v1Yb7vxPATvVa81SZT/qdC3gg+gSGCnffKPKMCwYWj8=",
+  "Source": "ElasticSearch",
+  "BasePath": "_content/ElasticSearch",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ElasticSearch\\wwwroot",
+      "Source": "ElasticSearch",
+      "ContentRoot": "D:\\Projects\\Dotnet\\ElasticSearch\\wwwroot\\",
+      "BasePath": "_content/ElasticSearch",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
